@@ -11,11 +11,11 @@ $assets = $this->config->item('assets');
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Malate Literary Folio</title>
+	<title>MLF <?php echo $title ?></title>
 
 	<link rel="SHORTCUT ICON" href="<?php echo $assets; ?>img/favicon.ico" type="image/x-icon" />
-	<link rel="stylesheet" href="<?php echo $assets; ?>stylesheets/app.css">
-	<link rel="stylesheet" href="<?php echo $assets; ?>stylesheets/malatestyle.css">
+	<link rel="stylesheet" href="<?php echo $assets; ?>stylesheets/app.css" />
+	<link rel="stylesheet" href="<?php echo $assets; ?>stylesheets/malatestyle.css" />
 	<link type="text/css" media="screen" rel="stylesheet" href="<?php echo $assets; ?>stylesheets/responsive-tables.css" />
 
 	<script type="text/javascript" src="<?php echo $assets; ?>javascripts/others/responsive-tables.js"></script>

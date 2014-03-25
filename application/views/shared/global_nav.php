@@ -14,11 +14,17 @@
 				</div>
 				<div class="row">
 					<div class="small-2 large-2 columns">
-						<a href="#">ABOUT</a>
+						<?php echo anchor('pahina/view/about', 'ABOUT') ?>
 					</div>
-					<div class="small-2 large-2 columns"><a>FOLIOS</a></div>
-					<div class="small-2 large-2 columns"><a>EVENTS</a></div>
-					<div class="small-2 large-2 columns end"><a>CONTACT</a></div>
+					<div class="small-2 large-2 columns">
+						<?php echo anchor('pahina/view/folios', 'FOLIOS') ?>
+					</div>
+					<div class="small-2 large-2 columns">
+						<?php echo anchor('pahina/view/events', 'EVENTS') ?>
+					</div>
+					<div class="small-2 large-2 columns end">
+						<?php echo anchor('pahina/view/contacts', 'CONTACTS') ?>
+					</div>
 				</div>
 			</div>
 		</div>
