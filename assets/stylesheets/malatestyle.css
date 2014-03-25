@@ -1,0 +1,41 @@
+body {
+	background-image: url('../img/moonbg.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+.global_nav {
+	background-color: #000;
+}
+
+.logo {
+    height: 90px;
+    display: block;
+    width: 130px;
+    background-image: url('../img/mlf_logo_white3.png');
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 5;
+}
+
+.malate {
+	font-family: Garamond, Georgia, serif;
+	color: #fff;
+}
+
+.largefont {
+	font-size: 400%;
+}
+
+.smallfont {
+	font-size: 123%;
+}
+
+.columns {
+    position: relative;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+    float: left;
+}
