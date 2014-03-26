@@ -9,7 +9,16 @@
   '.js><\/script>')
   </script>
   
-  <script src="<?php echo $assets; ?>javascripts/foundation/foundation.js"></script>
+  <script>
+	$(document).foundation({
+		// specify the class used for active dropdowns
+		active_class: 'hover1'
+	});
+  </script>
+  
+	<script src="js/jquery.js"></script>
+  
+	<script src="<?php echo $assets; ?>javascripts/foundation/foundation.js"></script>
 	
 	<script src="<?php echo $assets; ?>javascripts/foundation/foundation.abide.js"></script>
 	
