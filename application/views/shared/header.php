@@ -13,9 +13,9 @@ $assets = $this->config->item('assets');
 	<meta name="viewport" content="width=device-width">
 	<title>MLF <?php echo $title ?></title>
 
-	<link rel="SHORTCUT ICON" href="<?php echo $assets; ?>img/favicon.ico" type="image/x-icon" />
-	<link rel="stylesheet" href="<?php echo $assets; ?>stylesheets/app.css" />
-	<link rel="stylesheet" href="<?php echo $assets; ?>stylesheets/malatestyle.css" />
+	<link rel="SHORTCUT ICON" href="<?php echo base_url('assets/img/favicon.ico'); ?>" type="image/x-icon" />
+	<link type="text/css" rel="stylesheet" href="<?php echo base_url('assets/stylesheets/app.css'); ?>" />
+	<link type="text/css" rel="stylesheet" href="<?php echo base_url('assets/stylesheets/malatestyle.css'); ?>" />
 	<link type="text/css" media="screen" rel="stylesheet" href="<?php echo $assets; ?>stylesheets/responsive-tables.css" />
 
 	<script type="text/javascript" src="<?php echo $assets; ?>javascripts/others/responsive-tables.js"></script>

@@ -11,12 +11,12 @@
 	</div>
 
 	<div class="row">
-		<div class="large-8 columns">
+		<div class="large-9 columns">
 			<h3>The Grid</h3>
 
 			<!-- Grid Example -->
 			<div class="row">
-				<div class="large-12 columns">
+				<div class="large-11 columns">
 					<div class="panel">
 						<p>Welcome to the official website of Malate Literary Folio, the official 
 						literary and visual arts publication of De La Salle University - Manila.</p>
@@ -29,9 +29,18 @@
 			</div>
 		</div>
 
-		<div class="large-4 columns">
-			<a class="twitter-timeline" width="300" height="300" href="https://twitter.com/malatelitfolio" data-widget-id="447000621334294528">Tweets by @malatelitfolio</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
+		<div class="large-3 columns">
+			<div class="row">
+				<a class="twitter-timeline" width="300" height="300" href="https://twitter.com/malatelitfolio" data-widget-id="447000621334294528">Tweets by @malatelitfolio</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			</div>
+			<div class="row">
+				<br />
+				<iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fmalate.folio&amp;send=false&amp;layout=standard&amp;width=300&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font&amp;height=80&amp;appId=110964692310720" 
+                                    scrolling="no" frameborder="0" 
+                                    style="border:none; overflow:hidden; width:210px; height:120px;" 
+                                    allowTransparency="true">
+	            </iframe>
+			</div>
 		</div>
 	</div>

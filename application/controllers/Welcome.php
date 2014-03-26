@@ -45,7 +45,9 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('shared/header');
+		$data['title'] = 'Home';
+		
+		$this->load->view('shared/header', $data);
 		$this->load->view('shared/global_nav');
 		$this->load->view('welcome_message');
 		$this->load->view('shared/footer');
