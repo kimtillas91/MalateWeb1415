@@ -1,6 +1,10 @@
 	<div class="row">
 		<div class="large-12 columns">
 			<h4>Welcome to the official website of Malate Literary Folio</h4>
+			<p>Malate Literary Folio, the official literary and visual arts publication 
+				of De La Salle University - Manila, promotes commitment to creative 
+				writing and visual arts, guided by a Filipino consciousness. It is home 
+				to Lasallian artists and writers devoted to the development of their craft.</p>
 			<hr />
 		</div>
 	</div>
@@ -11,13 +15,13 @@
 			<!-- Grid Example -->
 			<div class="row">
 				<div class="large-11 columns">
-					<div class="panel">
-						<p>Malate Literary Folio, the official literary and visual arts publication 
-						of De La Salle University - Manila, promotes commitment to creative 
-						writing and visual arts, guided by a Filipino consciousness. 
-						It is home to Lasallian artists and 
-						writers devoted to developing their craft.</p>
-					</div>
+						<table>
+						<tr><th colspan="2">Calendar of Activities</th></tr>
+						<tr>
+							<td>??/??/????</td>
+							<td>Stuff</td>
+						</tr>
+						</table>
 				</div>
 			</div>
 		</div>

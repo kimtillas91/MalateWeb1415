@@ -30,11 +30,11 @@
 	
 	<script src="<?php echo $assets; ?>javascripts/foundation/foundation.dropdown.js"></script>
 	
-	<script src="<?php echo $assets; ?>javascripts/foundation/foundation.forms.js"></script>
+	<!--script src="<?php echo $assets; ?>javascripts/foundation/foundation.forms.js"></script-->
 	
-	<script src="<?php echo $assets; ?>javascripts/foundation/foundation.interchange.js"></script>
+	<!--script src="<?php echo $assets; ?>javascripts/foundation/foundation.interchange.js"></script-->
 	
-	<script src="<?php echo $assets; ?>javascripts/foundation/foundation.joyride.js"></script>
+	<!--script src="<?php echo $assets; ?>javascripts/foundation/foundation.joyride.js"></script-->
 	
 	<script src="<?php echo $assets; ?>javascripts/foundation/foundation.magellan.js"></script>
 	
